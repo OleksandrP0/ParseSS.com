@@ -6,8 +6,8 @@ from bs4 import BeautifulSoup
 import requests
 import telebot
 
-TELEGRAM_BOT_TOKEN = '6667481530:AAGwxgETMSIJsjy_HLyWMJBSKqSQ_X8dY8Y'
-CHAT_ID = '630860614'
+TELEGRAM_BOT_TOKEN = ''
+CHAT_ID = ''
 SENT_ADS_FILE = os.path.abspath("sent_ads.pkl")
 
 def save_sent_ads(sent_ads):
